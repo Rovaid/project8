@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Meta -->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="Moon">
+		<meta name="keywords" content="Moon, Chain">		
+		<title>Moon Chain Finance</title>				
+		<link rel="icon" type="image/png" href="assets/img/hlogo.png">		
+		<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">			
+		<link rel="stylesheet" href="assets/fonts/font-awesome.min.css">	
+		<link rel="stylesheet" href="assets/css/styleMain.css">			
+			
+	</head>
+    <body>
+		<section>
+	<div class="container">	
+		
+		
+		<div class="row">
+<div class="col-md-12">
+<div class="mt100 mb250">
+
+	<img src="assets/img/homelogo.png" class="center"  />
+</div>
+</div>
+
+		</div>
+
+	</div>
+		<!-- START HOME -->
+	
+			<div class="container">
+				<p class="text-center colorwhite" style="margin-bottom: 50px;">Listed Pancake Swap In</p>
+				<div class="row">
+					<div class="col-md-2"></div>
+					<div class="col-md-2 text-center">
+				
+						<div class="dot1">
+						<p id="demoDays" class="pancakeTime" style="margin-top: 30px;"></p>
+					</div>
+						<p>Days</p>
+					  </div>
+					  <div class="col-md-2 text-center">
+						<div class="dot1">
+						<p id="demoHours" class="pancakeTime" style="margin-top: 30px;"></p>
+					</div>
+						<p>Hours</p>
+					  </div>
+					  <div class="col-md-2 text-center">
+						<div class="dot1">
+						<p id="demoMin" class="pancakeTime" style="margin-top: 30px;"></p>
+					</div>
+						<p>Minutes</p>
+					  </div>
+					  <div class="col-md-2 text-center">
+						<div class="dot1">
+						<p id="demoSec" class="pancakeTime" style="margin-top: 30px;"></p>
+					</div>
+						<p>Seconds</p>
+					  </div>
+					  <div class="col-md-2"></div>
+
+				</div>
+			</div>
+		</section>
+		<!-- END  HOME -->	
+		<!-- START claim -->
+		
+		<section id="claim" class="about_us">
+			<div style="margin-top: 100px;"></div>
+			<div class="container">
+				<div style="margin-top: 50px;"></div> 
+				<p class="Mainstyle1 text-center">CLAIM AIRDROP</p>	
+				<br/>	<br/>
+				<p class="text-center text1"> (1,000,000 MCF) </p>	
+				<br/>					
+				<div class="row">
+					  <div class="col-md-12" style="text-align: center;">									
+						<button class="button button4"> CLAIM AIRDROP</button>
+					  </div>
+				</div>
+<div style="margin-top: 50px;">
+</div>
+	<p class="Mainstyle1 text-center" style="margin:0;padding:0;">BUY  MOON </p>
+	<p class="Mainstyle1 text-center" style="margin:0;padding:0;">CHAIN ( MCF )</p>
+	<p class="text-center text2">Min buy 0.01 ( 100,000,000 MCF ) </p>	
+	<br/>
+	<p class="text-center text2"> Max buy 10 ( 100,000,000,000 MCF ) </p>	
+	<br/>
+	<p class="text2">0.01</p>
+	<hr class="new1">
+	<div style="margin-top: 30px;"></div> 
+
+	
+
+	<div class="row">
+		<div class="col-md-12" style="text-align: center;">									
+			<button class="button button4"> BUY </button>
+		</div>
+  </div>
+  <br/>	<br/>
+  <p class="text-center textupper"> Invite By </p>	
+  <br/>	<br/><br/>
+  <p class="text-center text2"> Invited by wallet address is Required </p>
+  <div style="margin-top: 50px;"></div>
+
+  <p class="text1">Invite By</p>
+  <hr class="new1">
+			</div>
+		</section>
+		<!-- END  claim -->		
+
+<section style="margin-bottom: 50px;">
+	<div class="container">
+	<div id="colors">
+		
+	
+<br/><br/><br/>
+
+	<p class="text-center text1">
+		<img src="assets/img/attention.png" height="50" />  Attention: Use Gas<br/>
+		200000 
+	</p>	
+	<div style="margin-top: 100px;"></div>
+
+	<p class="text-center text2">
+		Refer and Get 50% of all Claim and<br/>
+100% of all Buy !
+
+	</p>
+	<br/>
+	<p class="text-center text3">
+		You must have Moon Chain an on your BEP20
+		Address
+		
+	</p>
+	<div style="margin-left: 20px;margin-right:20px;">
+	<input type="text" name="address" id="refaddress" value="" placeholder="Your BEP20 Address">
+</div>
+	<br/>
+	<div class="row">
+		<div class="col-md-12" style="text-align: center;">									
+			<button class="button button4" onclick="getreflink()"> GET REFER LINK </button>
+			<p id="refdata" class="text-center text2"></p>
+		</div>
+  </div>
+  <div style="margin-top: 40px;"></div>
+  <p class="text-center colorwhite" style="margin-bottom: 50px;">Listed Pancake Swap In</p>
+  <div class="row">
+	  <div class="col-md-3 text-center">
+    <div class="dot">
+		<div style="margin-top: 50px;"></div>
+		  <p id="cdemoDays" class="pancakeTime"></p>
+		  <p>Days</p>
+		</div>
+		</div>
+		<div class="col-md-3 text-center" >
+			<div class="dot">
+			<div style="margin-top: 50px;"></div>
+		  <p id="cdemoHours" class="pancakeTime"></p>
+		  <p>Hours</p>
+	</div>
+		</div>
+		<div class="col-md-3 text-center">
+			<div class="dot">
+				<div style="margin-top: 50px;"></div>
+		  <p id="cdemoMin" class="pancakeTime"></p>
+		  <p>Minutes</p>
+			</div>
+		</div>
+		<div class="col-md-3 text-center">
+			<div class="dot">
+				<div style="margin-top: 50px;"></div>
+		  <p id="cdemoSec" class="pancakeTime"></p>
+		  <p>Seconds</p>
+			</div>
+		</div>
+
+
+  </div>
+
+  <div style="margin-top: 60px;"></div>
+  <ul class="ulnew" style="margin-left: 50px;">
+
+	<li>  Each user participating in the Airdrop must participate
+		through a referral link of another person to join</li>
+	<li> Currently we only support Metamask wallets on PC and
+		Trust Wallet on smartphones</li>
+	<li>Refer and Get 100% of all Claim & Buy</li>
+	<li> The tokens will be automatically transferred to the
+		participant's wallet immediately
+		</li>
+	<li> Airdrop and selfdrop takes place from April 22, 2021
+		and ends on May 12, 2021.</li>
+	<li> Moon Chain will list on PancakeSwap on May 15, 2021</li>
+
+  </ul>
+  <div style="margin-top: 60px;"></div>
+  <p class="text-center Mainstyle1">
+	FAQ<br/>
+</p>
+
+<div class="content">
+	<div>
+	  <input type="checkbox" id="question1" name="q"  class="questions">
+	  <div class="plus">+</div>
+	  <label for="question1" class="question">
+		Wallet Support ??
+	  </label>
+	  <div class="answers">
+	This is the answer of the question.. keep it short.</div>
+	</div>
+	
+	<div>
+	  <input type="checkbox" id="question2" name="q" class="questions">
+	  <div class="plus">+</div>
+	  <label for="question2" class="question">
+		Time event?
+	  </label>
+	  <div class="answers">
+		This is the answer of the question.. keep it short
+	  </div>
+	</div>
+	  
+	<div>
+	  <input type="checkbox" id="question3" name="q" class="questions">
+	  <div class="plus">+</div>
+	  <label for="question3" class="question">
+		Exchange listing?
+	  </label>
+	  <div class="answers">
+		This is the answer of the question.. keep it short
+	  </div>
+	</div>
+	<div>
+		<input type="checkbox" id="question4" name="q" class="questions">
+		<div class="plus">+</div>
+		<label for="question4" class="question">
+			Referral link?
+		</label>
+		<div class="answers">
+		  This is the answer of the question.. keep it short
+		</div>
+	  </div>
+	</div>
+	<br/><br/><br/>
+</div>
+<div style="margin-top: 30px;"></div>
+<p class="text1">Thanks for coming. © 2021 Moon Chain Finance</p>
+<br/>
+<ul class="fful">
+	    
+	<li>Twitter</li>
+	<li>Telegram</li>
+	<li>Announcement</li>
+	<li>BSC</li>
+	<li>Scan</li>
+	
+</ul>
+
+</div>
+</section>
+		
+		
+			<script src="assets/js/jquery-1.12.4.min.js"></script>
+			<script src="assets/bootstrap/js/bootstrap.min.js"></script>	
+			<script src="assets/js/modernizr-2.8.3.min.js"></script>																				
+
+			<script>
+				// Set the date we're counting down to
+				var countDownDate = new Date("Jan 5, 2022 15:37:25").getTime();
+				
+				// Update the count down every 1 second
+				var x = setInterval(function() {
+				
+				  // Get today's date and time
+				  var now = new Date().getTime();
+					
+				  // Find the distance between now and the count down date
+				  var distance = countDownDate - now;
+					
+				  // Time calculations for days, hours, minutes and seconds
+				  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+				  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+				  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+				  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+					
+				  // Output the result in an element with id="demo"
+				  document.getElementById("demoDays").innerHTML = days; 
+				  document.getElementById("cdemoDays").innerHTML = days; 
+				  document.getElementById("demoHours").innerHTML = hours; 
+				  document.getElementById("cdemoHours").innerHTML = hours;
+				  document.getElementById("demoMin").innerHTML = minutes; 
+				  document.getElementById("cdemoMin").innerHTML = minutes; 
+				  document.getElementById("demoSec").innerHTML = seconds; 
+				  document.getElementById("cdemoSec").innerHTML = seconds
+				  // If the count down is over, write some text 
+				  if (distance < 0) {
+					clearInterval(x);
+					document.getElementById("demo").innerHTML = "EXPIRED";
+				  }
+				}, 1000);
+				</script>
+				<script>
+					function getreflink(){
+      var refaddr = document.getElementById("refaddress").value;
+      var reflink = document.getElementById("refdata");
+      reflink.href = '/airdrop/?ref=' + refaddr;
+      reflink.innerHTML = 'www.yourwebsite.com/data/?ref=' + refaddr;
+      document.getElementById('refs').style.display = 'block';
+    }
+				</script>
+    </body>
+
+</html>
